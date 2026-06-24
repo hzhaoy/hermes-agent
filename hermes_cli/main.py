@@ -2215,9 +2215,8 @@ def _resolve_use_tui(args) -> bool:
 
 def cmd_chat(args):
     """Run interactive chat CLI."""
+    _apply_isolation_env(args)
     use_tui = _resolve_use_tui(args)
-
-    _apply_safe_mode(args)
 
     # Resolve --continue into --resume with the latest session or by name
     continue_val = getattr(args, "continue_last", None)
@@ -2328,20 +2327,6 @@ def cmd_chat(args):
     # --yolo: bypass all dangerous command approvals
     if getattr(args, "yolo", False):
         os.environ["HERMES_YOLO_MODE"] = "1"
-
-    # --ignore-user-config: make load_cli_config() / load_config() skip the
-    # user's ~/.hermes/config.yaml and return built-in defaults. Set BEFORE
-    # importing cli (which runs `CLI_CONFIG = load_cli_config()` at module
-    # import time). Credentials in .env are still loaded — this flag only
-    # ignores behavioral/config settings.
-    if getattr(args, "ignore_user_config", False):
-        os.environ["HERMES_IGNORE_USER_CONFIG"] = "1"
-
-    # --ignore-rules: skip auto-injection of AGENTS.md/SOUL.md/.cursorrules
-    # (rules), memory entries, and any preloaded skills coming from user config.
-    # Maps to AIAgent(skip_context_files=True, skip_memory=True).
-    if getattr(args, "ignore_rules", False):
-        os.environ["HERMES_IGNORE_RULES"] = "1"
 
     # --source: tag session source for filtering (e.g. 'tool' for third-party integrations)
     if getattr(args, "source", None):
@@ -12360,7 +12345,7 @@ def _should_background_mcp_startup(args) -> bool:
 
 def _prepare_agent_startup(args) -> None:
     """Discover plugins/MCP/hooks for commands that can run an agent turn."""
-    _apply_safe_mode(args)
+    _apply_isolation_env(args)
 
     _sub_attr, _sub_set = _AGENT_SUBCOMMANDS.get(args.command, (None, None))
     if not (
@@ -12435,6 +12420,23 @@ def _apply_safe_mode(args) -> None:
     os.environ["HERMES_IGNORE_RULES"] = "1"
 
 
+def _apply_isolation_env(args) -> None:
+    _apply_safe_mode(args)
+
+    # --ignore-user-config: make load_cli_config() / load_config() skip the
+    # user's ~/.hermes/config.yaml and return built-in defaults. Credentials
+    # in .env are still loaded — this flag only ignores behavioral/config
+    # settings.
+    if getattr(args, "ignore_user_config", False):
+        os.environ["HERMES_IGNORE_USER_CONFIG"] = "1"
+
+    # --ignore-rules: skip auto-injection of AGENTS.md/SOUL.md/.cursorrules
+    # (rules), memory entries, and any preloaded skills coming from user config.
+    # Maps to AIAgent(skip_context_files=True, skip_memory=True).
+    if getattr(args, "ignore_rules", False):
+        os.environ["HERMES_IGNORE_RULES"] = "1"
+
+
 def _set_chat_arg_defaults(args) -> None:
     for attr, default in [
         ("query", None),
@@ -12499,6 +12501,10 @@ def _try_termux_fast_cli_launch() -> bool:
                 provider=getattr(args, "provider", None),
                 toolsets=getattr(args, "toolsets", None),
                 usage_file=getattr(args, "usage_file", None),
+                ignore_rules=(
+                    getattr(args, "ignore_rules", False)
+                    or getattr(args, "safe_mode", False)
+                ),
             )
         )
 
@@ -14596,6 +14602,10 @@ def main():
                 provider=getattr(args, "provider", None),
                 toolsets=getattr(args, "toolsets", None),
                 usage_file=getattr(args, "usage_file", None),
+                ignore_rules=(
+                    getattr(args, "ignore_rules", False)
+                    or getattr(args, "safe_mode", False)
+                ),
             )
         )
 
