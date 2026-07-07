@@ -1,0 +1,47 @@
+AGENTS.md
+  s_909bbb31c6c0af::t_e8dddf358d406f 1034-1037
+agent/curator.py
+  s_909bbb31c6c0af::t_d9e3b83083e950 6-8,12-13,17-19,1291-1295,1467-1471,1476-1482,1508-1509
+hermes_cli/curator.py
+  s_909bbb31c6c0af::t_c15d75545b829b 99-100,255-256,268-269,324-326,499-500,644-647
+hermes_cli/main.py
+  s_909bbb31c6c0af::t_984fcec97cbcef 5938-5940,13152-13155
+skills/autonomous-ai-agents/hermes-agent/SKILL.md
+  s_909bbb31c6c0af::t_5653b51a8c53eb 754-759,770-771
+tools/skill_usage.py
+  s_909bbb31c6c0af::t_374d84952b6c9d 15-18,422-427,920-922
+website/docs/reference/cli-commands.md
+  s_909bbb31c6c0af::t_2d31eacb22a806 1127
+website/docs/user-guide/configuration.md
+  s_909bbb31c6c0af::t_dd7aea41e44e5b 24
+website/docs/user-guide/features/curator.md
+  s_909bbb31c6c0af::t_e5ef7390101caf 9,35,109,143-145,147-153,172-174,178,184-187,208,241,257-258
+website/docs/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-hermes-agent.md
+  s_909bbb31c6c0af::t_b103cac16a65ce 691-696,702-703
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/reference/cli-commands.md
+  s_909bbb31c6c0af::t_e7fdcbd7e9dc4e 879,1258
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/configuration.md
+  s_909bbb31c6c0af::t_098876b05a9825 20
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/curator.md
+  s_909bbb31c6c0af::t_359e0ef8877324 9,35-39,54-55,58,93-95,107-109,143-145,147,149,151,153,155-156,158,161-169,187-189,220,263
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/skills/bundled/autonomous-ai-agents/autonomous-ai-agents-hermes-agent.md
+  s_909bbb31c6c0af::t_164816db33c883 659,662,946
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "16687a5f23fc22f53fdacae0e07b6db8875b0352",
+  "prompts": {},
+  "sessions": {
+    "s_909bbb31c6c0af": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f3baa-fba4-7d61-876b-705519624cf1",
+        "model": "unknown"
+      },
+      "human_author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
