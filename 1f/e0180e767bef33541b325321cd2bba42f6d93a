@@ -1,0 +1,42 @@
+gateway/platforms/ADDING_A_PLATFORM.md
+  s_31d53d766d07d5::t_b98e2b4d7557b3 96,98
+website/docs/developer-guide/adding-platform-adapters.md
+  s_31d53d766d07d5::t_fe3a7258de8907 23,25,80,498,638,654,675
+website/docs/developer-guide/architecture.md
+  s_31d53d766d07d5::t_3e74ffba32652e 153
+website/docs/developer-guide/gateway-internals.md
+  s_31d53d766d07d5::t_4d39e1f3134a9e 181-186
+website/docs/developer-guide/plugins/index.md
+  s_31d53d766d07d5::t_68218374faa06e 962-963
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/adding-platform-adapters.md
+  s_31d53d766d07d5::t_5a1c682c9480a7 23,25,80,494,634,650,671,688
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/architecture.md
+  s_31d53d766d07d5::t_821753137cda4d 153,277
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/gateway-internals.md
+  s_31d53d766d07d5::t_904fcd68b97a2b 179-184,269
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/plugins/index.md
+  s_31d53d766d07d5::t_0e0ea8c4f3423a 822-823,1156
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1fe0180e767bef33541b325321cd2bba42f6d93a",
+  "prompts": {},
+  "humans": {
+    "h_be1296c86edd7d": {
+      "author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_31d53d766d07d5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f3d1f-dc97-7282-85b7-56ebcd47b671",
+        "model": "unknown"
+      },
+      "human_author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
