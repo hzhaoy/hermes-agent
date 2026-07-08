@@ -1,0 +1,30 @@
+tests/hermes_cli/test_tui_resume_flow.py
+  s_109646dd7ed903::t_f380c4835457e4 383,623,627-697,962-1038
+hermes_cli/oneshot.py
+  s_109646dd7ed903::t_9802e94b4a869d 169,184-185,238,307,320,405-406
+hermes_cli/main.py
+  s_109646dd7ed903::t_e8a2bbb930bf50 2219-2221,12351,12426-12442,12507-12510,14608-14611
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "95e674a82d1ae145ffa9bdb13672ddab960a282c",
+  "prompts": {},
+  "humans": {
+    "h_be1296c86edd7d": {
+      "author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_109646dd7ed903": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ef8bd-1489-7170-986a-e9cf22097eef",
+        "model": "unknown"
+      },
+      "human_author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
