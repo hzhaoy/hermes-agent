@@ -1,0 +1,36 @@
+tests/hermes_cli/test_tui_resume_flow.py
+  s_109646dd7ed903::t_f380c4835457e4 383,623,627-697,962-1038
+hermes_cli/oneshot.py
+  s_109646dd7ed903::t_9802e94b4a869d 169,184-185,238,307,320,405-406
+hermes_cli/main.py
+  s_109646dd7ed903::t_e8a2bbb930bf50 2218,12348,12423-12439,12504-12507,14605-14608
+hermes_cli/config.py
+  s_109646dd7ed903::t_bf3026fa833f4d 6721-6725,6878,6899-6912,6936
+tests/hermes_cli/test_ignore_user_config_flags.py
+  s_109646dd7ed903::t_7e3a9703cddd6c 110-185
+tests/hermes_cli/test_safe_mode.py
+  s_109646dd7ed903::t_cfafd76338e9d4 68-92
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "0cdd6c761e6070685d8cd82cea0ba348d5302b64",
+  "prompts": {},
+  "humans": {
+    "h_be1296c86edd7d": {
+      "author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_109646dd7ed903": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ef8bd-1489-7170-986a-e9cf22097eef",
+        "model": "unknown"
+      },
+      "human_author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
