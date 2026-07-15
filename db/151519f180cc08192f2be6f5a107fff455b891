@@ -1,0 +1,23 @@
+hermes_cli/plugins_cmd.py
+  s_2b6d5472b6a915::t_955fea3cb3b629 1242-1250,1378,1380,1383,1396,1429,1461
+tests/hermes_cli/test_plugins_cmd_enable_disable_nested.py
+  s_2b6d5472b6a915::t_284a9fda1b36df 194-306
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "db151519f180cc08192f2be6f5a107fff455b891",
+  "prompts": {},
+  "sessions": {
+    "s_2b6d5472b6a915": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f122f-930e-7110-98c8-3010c1952a4f",
+        "model": "unknown"
+      },
+      "human_author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
