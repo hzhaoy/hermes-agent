@@ -1,0 +1,23 @@
+cli.py
+  s_ba87e545cf89c1::t_68c31ea2a5ec60 10218-10234,10276-10282
+tests/cli/test_cli_reload_mcp_output.py
+  s_ba87e545cf89c1::t_5c9669cd3e4e55 1-62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1be338582daaa05f3a8899883ce7b08cc0aa0807",
+  "prompts": {},
+  "sessions": {
+    "s_ba87e545cf89c1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019efcb2-fb31-7d21-8886-2c5b4d276d69",
+        "model": "unknown"
+      },
+      "human_author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
