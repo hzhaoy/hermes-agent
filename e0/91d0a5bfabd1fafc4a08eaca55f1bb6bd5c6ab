@@ -1,0 +1,21 @@
+hermes_cli/write_approval_commands.py
+  s_c3cc6876421c92::t_6bea7538e51a76 152
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e091d0a5bfabd1fafc4a08eaca55f1bb6bd5c6ab",
+  "prompts": {},
+  "sessions": {
+    "s_c3cc6876421c92": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f0459-4b55-7600-bb5c-1799a8f69def",
+        "model": "unknown"
+      },
+      "human_author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
