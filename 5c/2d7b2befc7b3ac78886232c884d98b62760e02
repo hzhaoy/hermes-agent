@@ -1,0 +1,23 @@
+website/docs/developer-guide/tools-runtime.md
+  s_3ae1aee9b627ff::t_d70dcac4aa7803 16-17,29,42-44,48-53,72,87,91-92,96-100,117,119,123,131,140-142,144,146-147,149,157-159,161,166,168,170,172,174,176,182-183,185,208,215
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/tools-runtime.md
+  s_3ae1aee9b627ff::t_0d42265d55e06b 16-17,29,42-44,48-53,72,87,91-92,96-100,117,119,123,131,140-142,144,146-147,149,157-159,161,166,168,170,172,174,176,182-183,185,208,215,246
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "5c2d7b2befc7b3ac78886232c884d98b62760e02",
+  "prompts": {},
+  "sessions": {
+    "s_3ae1aee9b627ff": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f6aab-dedb-7bb1-9f6b-f8d0c107977d",
+        "model": "unknown"
+      },
+      "human_author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
