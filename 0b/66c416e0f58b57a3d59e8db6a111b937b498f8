@@ -1,0 +1,32 @@
+website/docs/developer-guide/provider-runtime.md
+  s_196ec4ce96bc55::t_07eab85a246b58 187,189
+website/docs/user-guide/features/fallback-providers.md
+  s_196ec4ce96bc55::t_0a0509d0c1bb4b 384,431
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/provider-runtime.md
+  s_196ec4ce96bc55::t_f28baafb719288 187,189,202
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/user-guide/features/fallback-providers.md
+  s_196ec4ce96bc55::t_6594f9783db5f7 364,411-412
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "0b66c416e0f58b57a3d59e8db6a111b937b498f8",
+  "prompts": {},
+  "humans": {
+    "h_be1296c86edd7d": {
+      "author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_196ec4ce96bc55": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f6a46-3575-75c1-b41e-bf52217dbd9b",
+        "model": "unknown"
+      },
+      "human_author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
