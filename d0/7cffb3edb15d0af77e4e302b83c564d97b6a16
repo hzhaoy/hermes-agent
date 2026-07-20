@@ -1,0 +1,31 @@
+website/docs/developer-guide/adding-platform-adapters.md
+  s_ede2e9365007d1::t_7cef8174ed19dc 26
+website/docs/developer-guide/gateway-internals.md
+  s_ede2e9365007d1::t_6f8f1913ca8cf5 181-185,187
+website/docs/developer-guide/plugins/index.md
+  s_ede2e9365007d1::t_0635556d3ec436 964-965
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/adding-platform-adapters.md
+  s_ede2e9365007d1::t_e290d0fae8efde 26
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/gateway-internals.md
+  s_ede2e9365007d1::t_9b7f4045e122cb 179-183,185
+website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/developer-guide/plugins/index.md
+  s_ede2e9365007d1::t_9c51be52e2acb9 824-825
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d07cffb3edb15d0af77e4e302b83c564d97b6a16",
+  "prompts": {},
+  "sessions": {
+    "s_ede2e9365007d1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f7ec8-16b6-77b1-848a-fedb7fcc05f3",
+        "model": "unknown"
+      },
+      "human_author": "Elwin <61868295+hzhaoy@users.noreply.github.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
